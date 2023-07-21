@@ -70,7 +70,7 @@ fun main() {
     val calculator = Calculator(num1, num2)
 
     print("덧셈값: ${calculator.add()}")
-    print("뺄셈값 ${calculator.suntraction()}")
-    print("곱셈값 ${calculator.multiple()}")
-    print("나눗셈 결과: ${calculator.remainder()}")
+    print("뺄셈값: ${calculator.suntraction()}")
+    print("곱셈값: ${calculator.multiple()}")
+    print("나눗셈값: ${calculator.remainder()}")
 }
